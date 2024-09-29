@@ -16,7 +16,7 @@ public class storyTelling {
         scanner.nextLine();
         System.out.print("Are you good at it? y/n ");
         char inp = scanner.nextLine().charAt(0);
-
+        
         boolean isGood;
         if(inp == 'y' || inp == 'Y'){
             isGood = true;
